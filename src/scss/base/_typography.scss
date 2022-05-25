@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    font-size: rem(24);
+    font-weight: 700;
+    line-height: rem(29);
+}
+
+p {
+    font-size: rem(14);
+    font-weight: 400;
+    line-height: rem(22);
+}
