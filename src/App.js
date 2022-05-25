@@ -1,8 +1,12 @@
 import React from "react";
+import Survey from "./components/Survey";
+
 
 class App extends React.Component {
   render() {
-    return <h1>Hello World!</h1>;
+    return (
+      <Survey />
+    )
   }
 }
 
