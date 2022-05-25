@@ -1,12 +1,7 @@
 @import "abstracts/functions";
+@import "abstracts/variables";
 
 @import "base/reset";
 @import "base/typography";
 
-body {
-    padding: 24px;
-}
-
-
-
-
+@import "pages/global";
