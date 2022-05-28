@@ -92,4 +92,20 @@ body {
 p, label {
   color: #959eac;
 }
+
+.star {
+  background: #262e38 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  margin-bottom: 0.9375rem;
+  opacity: 1;
+  padding: 0.83313rem;
+}
+
+.survey-heading {
+  margin-bottom: 0.9375rem;
+}
+
+.survey-main-paragraph {
+  margin-bottom: 2.5rem;
+}
 /*# sourceMappingURL=main.css.map */
