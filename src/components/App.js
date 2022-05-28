@@ -1,5 +1,5 @@
 import React from "react";
-import Survey from "./components/Survey";
+import Survey from "./Survey";
 
 
 class App extends React.Component {

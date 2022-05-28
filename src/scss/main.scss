@@ -5,3 +5,23 @@
 @import "base/typography";
 
 @import "pages/global";
+
+.star {
+  background: #262e38 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  margin-bottom: rem(15);
+  opacity: 1;
+  padding: rem(13.33);
+}
+
+.survey-heading {
+    margin-bottom: rem(15);
+}
+
+.survey-main-paragraph {
+    margin-bottom: rem(40);
+}
+
+.survey-rating-form {
+    // width: 100%;
+}
