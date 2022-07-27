@@ -10,20 +10,41 @@ const Rating = () => {
           is appreciated to help us improve our offering!
         </p>
       </div>
-
-      <div>
-        <input type="radio" value="1" name="rating" />{" "}
-        <span className="input">1</span>
-        <input type="radio" value="2" name="rating" />{" "}
-        <span className="input">2</span>
-        <input type="radio" value="3" name="rating" />{" "}
-        <span className="input">3</span>
-        <input type="radio" value="4" name="rating" />{" "}
-        <span className="input">4</span>
-        <input type="radio" value="5" name="rating" />{" "}
-        <span className="input">5</span>
-        <button>Submit</button>
+      <div className="rating-component">
+        <ul className="rating">
+          <li>
+            <input type="radio" value="1" name="rating" />{" "}
+            <label htmlFor="1" className="input-value">
+              1
+            </label>
+          </li>
+          <li>
+            <input type="radio" value="2" name="rating" />{" "}
+            <label htmlFor="2" className="input-value">
+              2
+            </label>
+          </li>
+          <li>
+            <input type="radio" value="3" name="rating" />{" "}
+            <label htmlFor="3" className="input-value">
+              3
+            </label>
+          </li>
+          <li>
+            <input type="radio" value="4" name="rating" />{" "}
+            <label htmlFor="4" className="input-value">
+              4
+            </label>
+          </li>
+          <li>
+            <input type="radio" value="5" name="rating" />{" "}
+            <label htmlFor="5" className="input-value">
+              5
+            </label>
+          </li>
+        </ul>
       </div>
+      <button>Submit</button>
     </div>
   );
 };
