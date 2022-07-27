@@ -3,9 +3,16 @@
 @import "base/reset";
 @import "base/typography";
 
+$gray: hsla(217, 12%, 63%, 1);
+
+$dark-blue: hsla(213, 19%, 18%, 1);
 $very-dark-blue: hsla(216, 12%, 8%, 1);
 
 $main-bg-color: $very-dark-blue;
+$star-bg-color: $dark-blue;
+
+$secondary-text-color: white;
+$main-txt-color: $gray;
 
 .app-container {
   align-items: center;
@@ -26,6 +33,23 @@ $main-bg-color: $very-dark-blue;
     0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
-  padding: rem(24);
   width: rem(327);
+}
+
+.component-text {
+  color: $main-txt-color;
+  padding: rem(24);
+
+  img {
+    background-color: $star-bg-color;
+    border-radius: 50%;
+    height: rem(13.33);
+    padding: rem(13.33); 
+    width: rem(13.96); 
+    margin-bottom: rem(16);  
+  }
+  h1 {
+    color: $secondary-text-color;
+    margin-bottom: rem(15);
+  }
 }
