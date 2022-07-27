@@ -44,7 +44,8 @@ const Rating = () => {
           </li>
         </ul>
       </div>
-      <button>Submit</button>
+      <button className="btn">Submit</button>
+      
     </div>
   );
 };

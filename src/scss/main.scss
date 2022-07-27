@@ -34,6 +34,7 @@ $main-txt-color: $gray;
   border-radius: 15px;
   opacity: 1;
   width: rem(327);
+  padding-bottom: rem(32);
 }
 
 .component-text {
@@ -104,4 +105,17 @@ $main-txt-color: $gray;
   .rating label:hover {
     background: #ddd;
   }
+}
+
+.btn {
+  display: block;
+  color: white;
+  background-color: hsla(25, 97%, 53%, 1);
+  border: none;
+  outline: none;
+  border-radius: 23px;
+  margin: auto;
+  margin-top: rem(24);
+  height: rem(45);
+  width: rem(279);
 }
