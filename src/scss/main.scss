@@ -1,27 +1,55 @@
 @import "abstracts/functions";
-@import "abstracts/variables";
 
 @import "base/reset";
 @import "base/typography";
 
-@import "pages/global";
+$gray: hsla(217, 12%, 63%, 1);
 
-.star {
-  background: #262e38 0% 0% no-repeat padding-box;
-  border-radius: 50%;
-  margin-bottom: rem(15);
+$dark-blue: hsla(213, 19%, 18%, 1);
+$very-dark-blue: hsla(216, 12%, 8%, 1);
+
+$main-bg-color: $very-dark-blue;
+$star-bg-color: $dark-blue;
+
+$secondary-text-color: white;
+$main-txt-color: $gray;
+
+.app-container {
+  align-items: center;
+  background-color: $main-bg-color;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.component-container {
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 0%,
+      hsla(215, 20%, 17%, 1) 0%,
+      hsla(216, 24%, 12%, 1) 100%
+    )
+    0% 0% no-repeat padding-box;
+  border-radius: 15px;
   opacity: 1;
-  padding: rem(13.33);
+  width: rem(327);
 }
 
-.survey-heading {
+.component-text {
+  color: $main-txt-color;
+  padding: rem(24);
+
+  img {
+    background-color: $star-bg-color;
+    border-radius: 50%;
+    height: rem(13.33);
+    padding: rem(13.33); 
+    width: rem(13.96); 
+    margin-bottom: rem(16);  
+  }
+  h1 {
+    color: $secondary-text-color;
     margin-bottom: rem(15);
-}
-
-.survey-main-paragraph {
-    margin-bottom: rem(40);
-}
-
-.survey-rating-form {
-    // width: 100%;
+  }
 }
