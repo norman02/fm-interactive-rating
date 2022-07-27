@@ -97,4 +97,12 @@ button {
   justify-content: center;
   width: 100vw;
 }
+
+.component-container {
+  background: transparent radial-gradient(closest-side at 50% 0%, #232a34 0%, #171d26 100%) 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 1.5rem;
+  width: 20.4375rem;
+}
 /*# sourceMappingURL=main.css.map */

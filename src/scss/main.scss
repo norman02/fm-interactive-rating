@@ -8,10 +8,24 @@ $very-dark-blue: hsla(216, 12%, 8%, 1);
 $main-bg-color: $very-dark-blue;
 
 .app-container {
-    align-items: center;
-    background-color: $main-bg-color;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    width: 100vw;
+  align-items: center;
+  background-color: $main-bg-color;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.component-container {
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 0%,
+      hsla(215, 20%, 17%, 1) 0%,
+      hsla(216, 24%, 12%, 1) 100%
+    )
+    0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  padding: rem(24);
+  width: rem(327);
 }
