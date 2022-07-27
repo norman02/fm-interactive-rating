@@ -2,13 +2,13 @@
 
 h1,
 p,
-.input,
+label,
 button {
   font-family: "Overpass", sans-serif;
 }
 
 h1,
-input,
+label,
 button {
   font-weight: 700;
 }
@@ -24,7 +24,7 @@ p {
   line-height: rem(22);
 }
 
-.input {
+label {
   font-size: rem(14);
   letter-spacing: rem(0.17);
   line-height: rem(24);
@@ -34,4 +34,5 @@ button {
   font-size: rem(14);
   letter-spacing: rem(1.87);
   line-height: rem(17);
+  text-transform: uppercase;
 }
