@@ -9,11 +9,11 @@ const Rating = () => {
         appreciated to help us improve our offering!
       </p>
       <div>
-        <input type="radio" value="1" name="rating" /> 1
-        <input type="radio" value="2" name="rating" /> 2
-        <input type="radio" value="3" name="rating" /> 3
-        <input type="radio" value="4" name="rating" /> 4
-        <input type="radio" value="5" name="rating" /> 5
+        <input type="radio" value="1" name="rating" /> <span className="input">1</span>
+        <input type="radio" value="2" name="rating" /> <span className="input">2</span>
+        <input type="radio" value="3" name="rating" /> <span className="input">3</span>
+        <input type="radio" value="4" name="rating" /> <span className="input">4</span>
+        <input type="radio" value="5" name="rating" /> <span className="input">5</span>
         <button>Submit</button>
       </div>
     </div>

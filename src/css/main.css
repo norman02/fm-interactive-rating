@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,5 +51,41 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+h1,
+p,
+.input,
+button {
+  font-family: "Overpass", sans-serif;
+}
+
+h1,
+input,
+button {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+
+p {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.input {
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  line-height: 1.5rem;
+}
+
+button {
+  font-size: 0.875rem;
+  letter-spacing: 0.11688rem;
+  line-height: 1.0625rem;
 }
 /*# sourceMappingURL=main.css.map */

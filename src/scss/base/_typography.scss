@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+h1,
+p,
+.input,
+button {
+  font-family: "Overpass", sans-serif;
+}
+
+h1,
+input,
+button {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: rem(24);
+  line-height: rem(29);
+}
+
+p {
+  font-size: rem(13);
+  font-weight: 400;
+  line-height: rem(22);
+}
+
+.input {
+  font-size: rem(14);
+  letter-spacing: rem(0.17);
+  line-height: rem(24);
+}
+
+button {
+  font-size: rem(14);
+  letter-spacing: rem(1.87);
+  line-height: rem(17);
+}
