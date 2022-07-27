@@ -1,9 +1,11 @@
+
 import React from "react";
+import Rating from "./Rating/Rating";
 const App = () => {
   return (
     <div className="app-container">
       <div className="component-container">
-        <p>hello world</p>
+        <Rating />
       </div>
     </div>
   );
