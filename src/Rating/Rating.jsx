@@ -3,7 +3,7 @@ const Rating = () => {
   return (
     <div>
       <div className="component-text">
-        <img src={star} alt="" />
+        <img className="star" src={star} alt="" />
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback

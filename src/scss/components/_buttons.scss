@@ -1,0 +1,38 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.6s;
+  
+    &__rate {
+      color: $main-txt-color;
+      display: block;
+      float: left;
+      width: rem(42);
+      height: rem(42);
+      background-color: $secondary-btn-bg-color;
+      border-radius: 50%;
+  
+      &:hover {
+        background-color: $secondary-btn-active-color;
+        color: $secondary-text-color;
+      }
+    }
+  
+    &__submit {
+      display: block;
+  
+      color: $secondary-text-color;
+      background-color: $primary-btn-bg-color;
+      border-radius: 23px;
+      margin: auto;
+      margin-top: rem(24);
+      height: rem(45);
+      width: rem(279);
+  
+      &:hover {
+        background-color: $primary-active-color;
+        color: $active-txt-color;
+      }
+    }
+  }

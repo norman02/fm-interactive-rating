@@ -1,0 +1,31 @@
+.component-container {
+    background: transparent
+      radial-gradient(
+        closest-side at 50% 0%,
+        hsla(215, 20%, 17%, 1) 0%,
+        hsla(216, 24%, 12%, 1) 100%
+      )
+      0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    width: rem(327);
+    padding-bottom: rem(32);
+  }
+  
+  .component-text {
+    color: $main-txt-color;
+    padding: rem(24);
+  
+    .star {
+      background-color: $star-bg-color;
+      border-radius: 50%;
+      height: rem(13.33);
+      padding: rem(13.33);
+      width: rem(13.96);
+      margin-bottom: rem(16);
+    }
+    h1 {
+      color: $secondary-text-color;
+      margin-bottom: rem(15);
+    }
+  }
