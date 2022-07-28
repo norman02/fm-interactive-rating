@@ -11,41 +11,18 @@ const Rating = () => {
         </p>
       </div>
       <div className="rating-component">
-        <ul className="rating">
-          <li>
-            <input type="radio" value="1" name="rating" />{" "}
-            <label htmlFor="1" className="input-value">
-              1
-            </label>
-          </li>
-          <li>
-            <input type="radio" value="2" name="rating" />{" "}
-            <label htmlFor="2" className="input-value">
-              2
-            </label>
-          </li>
-          <li>
-            <input type="radio" value="3" name="rating" />{" "}
-            <label htmlFor="3" className="input-value">
-              3
-            </label>
-          </li>
-          <li>
-            <input type="radio" value="4" name="rating" />{" "}
-            <label htmlFor="4" className="input-value">
-              4
-            </label>
-          </li>
-          <li>
-            <input type="radio" value="5" name="rating" />{" "}
-            <label htmlFor="5" className="input-value">
-              5
-            </label>
-          </li>
-        </ul>
+        <div className="rating">
+          <button className="btn btn__rate">1</button>
+          <button className="btn btn__rate">2</button>
+
+          <button className="btn btn__rate">3</button>
+
+          <button className="btn btn__rate">4</button>
+
+          <button className="btn btn__rate">5</button>
+        </div>
       </div>
-      <button className="btn">Submit</button>
-      
+      <button className="btn btn__submit">Submit</button>
     </div>
   );
 };

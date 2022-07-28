@@ -55,67 +55,48 @@ $main-txt-color: $gray;
   }
 }
 
-.rating-component {
+.rating {
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 rem(24);
-  .rating {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .rating li {
-    color: hsla(216, 12%, 54%, 1);
-    text-align: center;
-    float: left;
-    width: rem(42);
-    height: rem(42);
-    position: relative;
-    margin-left: rem(9);
-  }
-
-  .rating label,
-  .rating input {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .rating input[type="radio"] {
-    opacity: 0.01;
-    z-index: 100;
-  }
-
-  .rating input[type="radio"]:checked + label,
-  .Checked + label {
-    background: yellow;
-  }
-
-  .rating label {
-    padding: 5px;
-    background-color: hsla(213, 19%, 18%, 1);
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 90;
-  }
-
-  .rating label:hover {
-    background: #ddd;
-  }
+  justify-content: space-between;
+  margin: 0 rem(24);
 }
 
 .btn {
-  display: block;
-  color: white;
-  background-color: hsla(25, 97%, 53%, 1);
   border: none;
   outline: none;
-  border-radius: 23px;
-  margin: auto;
-  margin-top: rem(24);
-  height: rem(45);
-  width: rem(279);
+  cursor: pointer;
+  transition: 0.6s;
+
+  &__rate {
+    color: hsla(216, 12%, 54%, 1);
+    display: block;
+    float: left;
+    width: rem(42);
+    height: rem(42);
+    background-color: hsla(213, 19%, 18%, 1);
+    border-radius: 50%;
+
+    &:hover {
+      background-color: hsla(25, 97%, 53%, 1);
+      color: white;
+    }
+  }
+
+  &__submit {
+    display: block;
+
+    color: white;
+    background-color: hsla(25, 97%, 53%, 1);
+    border-radius: 23px;
+    margin: auto;
+    margin-top: rem(24);
+    height: rem(45);
+    width: rem(279);
+
+    &:hover {
+      background-color: white;
+      color: hsla(25, 97%, 53%, 1);
+    }
+  }
 }
