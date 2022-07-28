@@ -1,121 +1,19 @@
 @import "abstracts/functions";
+@import "abstracts/variables";
 
 @import "base/reset";
 @import "base/typography";
 
-$gray: hsla(217, 12%, 63%, 1);
+@import "components/buttons";
+@import "components/rating";
 
-$dark-blue: hsla(213, 19%, 18%, 1);
-$very-dark-blue: hsla(216, 12%, 8%, 1);
+@import "layouts/app";
+@import "layouts/component";
 
-$main-bg-color: $very-dark-blue;
-$star-bg-color: $dark-blue;
 
-$secondary-text-color: white;
-$main-txt-color: $gray;
 
-.app-container {
-  align-items: center;
-  background-color: $main-bg-color;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
-}
 
-.component-container {
-  background: transparent
-    radial-gradient(
-      closest-side at 50% 0%,
-      hsla(215, 20%, 17%, 1) 0%,
-      hsla(216, 24%, 12%, 1) 100%
-    )
-    0% 0% no-repeat padding-box;
-  border-radius: 15px;
-  opacity: 1;
-  width: rem(327);
-  padding-bottom: rem(32);
-}
 
-.component-text {
-  color: $main-txt-color;
-  padding: rem(24);
 
-  img {
-    background-color: $star-bg-color;
-    border-radius: 50%;
-    height: rem(13.33);
-    padding: rem(13.33);
-    width: rem(13.96);
-    margin-bottom: rem(16);
-  }
-  h1 {
-    color: $secondary-text-color;
-    margin-bottom: rem(15);
-  }
-}
 
-.rating-component {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 rem(24);
-  .rating {
-    list-style-type: none;
-    padding: 0;
-  }
 
-  .rating li {
-    color: hsla(216, 12%, 54%, 1);
-    text-align: center;
-    float: left;
-    width: rem(42);
-    height: rem(42);
-    position: relative;
-    margin-left: rem(9);
-  }
-
-  .rating label,
-  .rating input {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .rating input[type="radio"] {
-    opacity: 0.01;
-    z-index: 100;
-  }
-
-  .rating input[type="radio"]:checked + label,
-  .Checked + label {
-    background: yellow;
-  }
-
-  .rating label {
-    padding: 5px;
-    background-color: hsla(213, 19%, 18%, 1);
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 90;
-  }
-
-  .rating label:hover {
-    background: #ddd;
-  }
-}
-
-.btn {
-  display: block;
-  color: white;
-  background-color: hsla(25, 97%, 53%, 1);
-  border: none;
-  outline: none;
-  border-radius: 23px;
-  margin: auto;
-  margin-top: rem(24);
-  height: rem(45);
-  width: rem(279);
-}
